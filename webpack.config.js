@@ -48,6 +48,10 @@ module.exports = {
             {
                 from: './data',
                 to: './data'
+            },
+            {
+                from: 'src/assets',
+                to: './assets'
             }
         ])
     ]

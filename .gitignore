@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+*.csv
+*.csv
+data/Cereals1980-2016.csv
+*.xml

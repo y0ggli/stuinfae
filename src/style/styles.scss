@@ -1,4 +1,6 @@
-g{
+svg{
+  grid-column-start: 2;
+  grid-row-start: 2;
   margin: auto;
   width: 100%;
   height: 100%;
@@ -11,12 +13,44 @@ g{
   stroke: #fff;
   stroke-linejoin: round;
   stroke-linecap: round;
+
+  &:hover {
+    fill: #ff6691;
+  }
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 33% auto;
+  grid-template-rows: 25% auto 33%;
+}
+
+
+.tooltip {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  font: 12px sans-serif;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  background: #ff6691;
+}
+
 
 body{
   background-color: #222222;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+.title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
   color: white;
 }
