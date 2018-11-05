@@ -1,3 +1,24 @@
+@import "~normalize.css/normalize.css";
+
+$font_stack: Helvetica, sans-serif;
+$area_first: #00e676;
+$area_second: #66ffa6;
+$prod_first: #e65800;
+$prod_second: #ff9c66;
+$highlight: #ff6691;
+$background: #222222;
+$text_size: 1em;
+/*$title_size:*/
+
+body{
+  font: 1em $font_stack;
+  background-color: $background;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 svg{
   grid-column-start: 2;
   grid-row-start: 2;
@@ -9,13 +30,13 @@ svg{
 }
 
 .africa {
-  fill: #222222;
+  fill: $background;
   stroke: #fff;
   stroke-linejoin: round;
   stroke-linecap: round;
 
   &:hover {
-    fill: #ff6691;
+    fill: $highlight;
   }
 }
 
@@ -32,21 +53,110 @@ svg{
   text-align: center;
   width: auto;
   height: auto;
-  padding: 2px;
-  font: 12px sans-serif;
-  border: 0px;
   border-radius: 8px;
   pointer-events: none;
-  background: #ff6691;
-}
+  background: $background;
+  border: solid 2px $highlight;
+
+  h2 {
+    padding: 0 10px;
+    color: white;
+  }
+
+  .info {
+    display: flex;
+    margin: 10px 20px;
+
+  }
+
+  .area1980 {
+
+    .symbol {
+      width: $text_size;
+      height: $text_size;
+      margin: auto;
+      background: $area_first;
+      border-radius: 50%;
+    }
+
+    .year {
+      margin: auto 10px;
+      color: $area_first;
+      font-weight: bold;
+    }
+
+    .value {
+      color: white;
+      flex: 1;
+    }
 
 
-body{
-  background-color: #222222;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  }
+
+  .area2016 {
+
+    .symbol {
+      width: $text_size;
+      height: $text_size;
+      margin: auto;
+      background: $area_second;
+      border-radius: 50%;
+    }
+
+    .year {
+      margin: auto 10px;
+      color: $area_second;
+      font-weight: bold;
+    }
+
+    .value {
+      color: white;
+      flex: 1;
+    }
+
+  }
+
+  .prod2016 {
+
+    .symbol {
+      width: $text_size/2;
+      height: $text_size;
+      margin: auto $text_size/4;
+      background: $prod_second;
+    }
+
+    .year {
+      margin: auto 10px;
+      color: $prod_second;
+      font-weight: bold;
+    }
+
+    .value {
+      color: white;
+      flex: 1;
+    }
+  }
+
+  .prod1980 {
+
+      .symbol {
+        width: $text_size/2;
+        height: $text_size;
+        margin: auto $text_size/4;
+        background: $prod_first;
+      }
+
+      .year {
+        margin: auto 10px;
+        color: $prod_first;
+        font-weight: bold;
+      }
+
+      .value {
+        color: white;
+        flex: 1;
+      }
+    }
 }
 
 .title {

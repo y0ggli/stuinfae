@@ -1,6 +1,15 @@
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
 
+
+const colors = {
+    area_first: '#00e676',
+    area_second: '#66ffa6',
+    prod_first: '#e65800',
+    prod_second: '#ff9c66',
+    highlight: '#ff6691'
+}
+
 let width = 900;
 let height = 900;
 
@@ -10,8 +19,8 @@ const svg = d3.select('.container')
     .attr('width', width);
 
 let projection = d3.geoMercator()
-    .scale(400)
-    .translate([width / 2, height / 2]);
+    .scale(500)
+    .translate([width/4, height / 2.5]);
 
 let path = d3.geoPath().projection(projection);
 let areaHarvested;
@@ -40,7 +49,6 @@ Promise.all([
 function draw(data, africa) {
 
     g = svg.append('g')
-        .style('transform', 'translate(-25%, -20%)');
 
     //Map
     let paths = drawMap(g, africa);
@@ -109,19 +117,34 @@ function handleMouseOver(d) {
 
         tooltip.html(
             '<h2>' + area.Name +'</h2>' +
-        '<p>' + area.Years[0].Year + ': ' + area.Years[0].Value + ' ' + area.Unit + '</p>'
-        )
-        //.style("transform", "translate(" + path.centroid(d)[0] + "px," + path.centroid(d)[1] + "px" + ")")
-/*        .style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY - 28) + "px");*/
+            '<div class="info area' + area.Years[0].Year + '">' +
+                '<div class="symbol"></div>' +
+                '<p class="year">' +  area.Years[0].Year + ': ' + '</p>'+
+                '<p class="value">' + area.Years[0].Value.toLocaleString() + ' ' + area.Unit + '</p>' +
+            '</div>' +
+            '<div class="info area' + area.Years[1].Year + '">' +
+                '<div class="symbol"></div>' +
+                '<p class="year">' +  area.Years[1].Year + ': ' + '</p>'+
+                '<p class="value">' + area.Years[1].Value.toLocaleString() + ' ' + area.Unit + '</p>' +
+            '</div>' +
+            '<div class="info prod' + prod.Years[0].Year + '">' +
+                '<div class="symbol"></div>' +
+                '<p class="year">' +  prod.Years[0].Year + ': ' + '</p>'+
+                '<p class="value">' + prod.Years[0].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
+            '</div>'+
+            '<div class="info prod' + prod.Years[1].Year + '">' +
+                '<div class="symbol"></div>' +
+                '<p class="year">' +  prod.Years[1].Year + ': ' + '</p>'+
+                '<p class="value">' + prod.Years[1].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
+            '</div>'
 
-    
+        )
 }
 
 function handleMouseOut() {
     tooltip.transition()
-        .duration(200)
-        .style("opacity", 0);
+        .duration(200);
+        //.style("opacity", 0);
     
 }
 
@@ -141,8 +164,8 @@ function drawAreaHarvested(g, data, map) {
         enterCircles.append("circle")
         .attr('class', 'bubble')
         .attr("r", d=> {return radius(getValueForYear(d,2016))})
-        .attr("fill", '#66ffa6')
-        .attr('stroke', '#66ffa6')
+        .attr("fill", colors.area_second)
+        .attr('stroke', colors.area_second)
         .attr("transform", d => {
             for (let i = 0; i < map.data().length; i++) {
                 let p = map.data()[i];
@@ -150,19 +173,21 @@ function drawAreaHarvested(g, data, map) {
                     return "translate(" + path.centroid(p) + ")";
                 }
             }
-        });
+        })
+            .on("mouseover", handleMouseOver)
+            .on("mouseout", handleMouseOut);
 
 
         enterCircles.append("circle")
         .attr('class', 'bubble')
         .attr("r", d=> {return radius(getValueForYear(d,1980))})
-        .attr('stroke', '#00e676')
+        .attr('stroke', colors.area_first)
         .attr('fill', d => {
             //console.log(getMaxYear(d).Year);
             if (getMaxYear(d).Year === 1980){
                 return 'none'
             } else {
-                return '#00e676'
+                return colors.area_first
             }
         })
         .attr("transform", d => {
@@ -172,7 +197,9 @@ function drawAreaHarvested(g, data, map) {
                     return "translate(" + path.centroid(p) + ")";
                 }
             }
-        });
+        })
+            .on("mouseover", handleMouseOver)
+            .on("mouseout", handleMouseOut);
 }
 
 function drawProduction(g, data, map) {
@@ -191,8 +218,8 @@ function drawProduction(g, data, map) {
         .attr('class', 'bar')
         .attr('width',4)
         .attr('height', d =>{return height(getValueForYear(d,2016))})
-        .attr('stroke','#ff9c66')
-        .attr('fill','#ff9c66')
+        .attr('stroke',colors.prod_second)
+        .attr('fill',colors.prod_second)
         .attr("transform", (d) => {
             for (let i = 0; i < map.data().length; i++) {
                 let p = map.data()[i];
@@ -207,20 +234,18 @@ function drawProduction(g, data, map) {
         .attr('class', 'bar')
         .attr('width',4)
         .attr('height', d =>{return height(getValueForYear(d,1980))})
-        .attr('stroke','#e65800')
+        .attr('stroke',colors.prod_first)
         .attr('fill',d => {
-            //console.log(getMaxYear(d).Year);
             if (getMaxYear(d).Year === 1980){
                 return 'none'
             } else {
-                return '#e65800'
+                return colors.prod_first
             }
         })
         .attr("transform", (d) => {
             for (let i = 0; i < map.data().length; i++) {
                 let p = map.data()[i];
                 if (p.properties.geounit === d["Name"]) {
-                    //console.log(p.properties.geounit+ " " +path.centroid(p));
                     return "translate(" + (path.centroid(p)[0] - 2) + ","+ (path.centroid(p)[1] - height(getValueForYear(d,1980))) + ")";
                 }
             }
