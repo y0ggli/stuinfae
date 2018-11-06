@@ -4,7 +4,7 @@
   "description": "Information Aesthetics",
   "main": "src/app.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --port 8080",
     "build": "webpack -p --config webpack.config.js --hide-modules --progress --mode production"
   },
   "author": "Yannick Bättig",
