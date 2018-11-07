@@ -1,4 +1,4 @@
-锘緼rea,Element,Year,Unit,Value
+Area,Element,Year,Unit,Value
 Algeria,Area harvested,1980,ha,3181380
 Algeria,Area harvested,1981,ha,2836390
 Algeria,Area harvested,1982,ha,2569300
@@ -1109,117 +1109,6 @@ Chad,Production,2013,tonnes,2622545
 Chad,Production,2014,tonnes,2748668
 Chad,Production,2015,tonnes,2452528
 Chad,Production,2016,tonnes,2873660
-Comoros,Area harvested,1980,ha,17200
-Comoros,Area harvested,1981,ha,17300
-Comoros,Area harvested,1982,ha,17200
-Comoros,Area harvested,1983,ha,16000
-Comoros,Area harvested,1984,ha,15000
-Comoros,Area harvested,1985,ha,15200
-Comoros,Area harvested,1986,ha,15200
-Comoros,Area harvested,1987,ha,14236
-Comoros,Area harvested,1988,ha,14257
-Comoros,Area harvested,1989,ha,14477
-Comoros,Area harvested,1990,ha,14724
-Comoros,Area harvested,1991,ha,15028
-Comoros,Area harvested,1992,ha,15549
-Comoros,Area harvested,1993,ha,15967
-Comoros,Area harvested,1994,ha,15912
-Comoros,Area harvested,1995,ha,16069
-Comoros,Area harvested,1996,ha,16189
-Comoros,Area harvested,1997,ha,16345
-Comoros,Area harvested,1998,ha,16682
-Comoros,Area harvested,1999,ha,16248
-Comoros,Area harvested,2000,ha,14977
-Comoros,Area harvested,2001,ha,16060
-Comoros,Area harvested,2002,ha,16296
-Comoros,Area harvested,2003,ha,16609
-Comoros,Area harvested,2004,ha,16899
-Comoros,Area harvested,2005,ha,16966
-Comoros,Area harvested,2006,ha,19000
-Comoros,Area harvested,2007,ha,16125
-Comoros,Area harvested,2008,ha,19229
-Comoros,Area harvested,2009,ha,19848
-Comoros,Area harvested,2010,ha,21500
-Comoros,Area harvested,2011,ha,23600
-Comoros,Area harvested,2012,ha,24600
-Comoros,Area harvested,2013,ha,25500
-Comoros,Area harvested,2014,ha,27079
-Comoros,Area harvested,2015,ha,28275
-Comoros,Area harvested,2016,ha,29577
-Comoros,Yield,1980,hg/ha,10581
-Comoros,Yield,1981,hg/ha,10578
-Comoros,Yield,1982,hg/ha,10581
-Comoros,Yield,1983,hg/ha,11250
-Comoros,Yield,1984,hg/ha,11100
-Comoros,Yield,1985,hg/ha,10888
-Comoros,Yield,1986,hg/ha,11178
-Comoros,Yield,1987,hg/ha,11555
-Comoros,Yield,1988,hg/ha,11573
-Comoros,Yield,1989,hg/ha,12813
-Comoros,Yield,1990,hg/ha,12670
-Comoros,Yield,1991,hg/ha,13022
-Comoros,Yield,1992,hg/ha,12921
-Comoros,Yield,1993,hg/ha,12908
-Comoros,Yield,1994,hg/ha,12932
-Comoros,Yield,1995,hg/ha,12950
-Comoros,Yield,1996,hg/ha,12953
-Comoros,Yield,1997,hg/ha,12930
-Comoros,Yield,1998,hg/ha,12791
-Comoros,Yield,1999,hg/ha,13004
-Comoros,Yield,2000,hg/ha,13170
-Comoros,Yield,2001,hg/ha,13098
-Comoros,Yield,2002,hg/ha,13084
-Comoros,Yield,2003,hg/ha,13097
-Comoros,Yield,2004,hg/ha,13106
-Comoros,Yield,2005,hg/ha,13105
-Comoros,Yield,2006,hg/ha,12784
-Comoros,Yield,2007,hg/ha,13356
-Comoros,Yield,2008,hg/ha,12865
-Comoros,Yield,2009,hg/ha,13217
-Comoros,Yield,2010,hg/ha,13613
-Comoros,Yield,2011,hg/ha,13540
-Comoros,Yield,2012,hg/ha,13183
-Comoros,Yield,2013,hg/ha,13818
-Comoros,Yield,2014,hg/ha,13683
-Comoros,Yield,2015,hg/ha,13499
-Comoros,Yield,2016,hg/ha,13558
-Comoros,Production,1980,tonnes,18200
-Comoros,Production,1981,tonnes,18300
-Comoros,Production,1982,tonnes,18200
-Comoros,Production,1983,tonnes,18000
-Comoros,Production,1984,tonnes,16650
-Comoros,Production,1985,tonnes,16550
-Comoros,Production,1986,tonnes,16990
-Comoros,Production,1987,tonnes,16450
-Comoros,Production,1988,tonnes,16500
-Comoros,Production,1989,tonnes,18550
-Comoros,Production,1990,tonnes,18655
-Comoros,Production,1991,tonnes,19570
-Comoros,Production,1992,tonnes,20090
-Comoros,Production,1993,tonnes,20610
-Comoros,Production,1994,tonnes,20577
-Comoros,Production,1995,tonnes,20810
-Comoros,Production,1996,tonnes,20969
-Comoros,Production,1997,tonnes,21133
-Comoros,Production,1998,tonnes,21339
-Comoros,Production,1999,tonnes,21129
-Comoros,Production,2000,tonnes,19724
-Comoros,Production,2001,tonnes,21036
-Comoros,Production,2002,tonnes,21321
-Comoros,Production,2003,tonnes,21753
-Comoros,Production,2004,tonnes,22147
-Comoros,Production,2005,tonnes,22235
-Comoros,Production,2006,tonnes,24289
-Comoros,Production,2007,tonnes,21536
-Comoros,Production,2008,tonnes,24737
-Comoros,Production,2009,tonnes,26233
-Comoros,Production,2010,tonnes,29267
-Comoros,Production,2011,tonnes,31954
-Comoros,Production,2012,tonnes,32430
-Comoros,Production,2013,tonnes,35237
-Comoros,Production,2014,tonnes,37053
-Comoros,Production,2015,tonnes,38168
-Comoros,Production,2016,tonnes,40100
 Congo,Area harvested,1980,ha,13855
 Congo,Area harvested,1981,ha,13700
 Congo,Area harvested,1982,ha,13100
@@ -1331,117 +1220,117 @@ Congo,Production,2013,tonnes,27846
 Congo,Production,2014,tonnes,28535
 Congo,Production,2015,tonnes,28281
 Congo,Production,2016,tonnes,29219
-C么te d'Ivoire,Area harvested,1980,ha,927200
-C么te d'Ivoire,Area harvested,1981,ha,943100
-C么te d'Ivoire,Area harvested,1982,ha,984700
-C么te d'Ivoire,Area harvested,1983,ha,1043500
-C么te d'Ivoire,Area harvested,1984,ha,1129200
-C么te d'Ivoire,Area harvested,1985,ha,1097000
-C么te d'Ivoire,Area harvested,1986,ha,1225000
-C么te d'Ivoire,Area harvested,1987,ha,1274000
-C么te d'Ivoire,Area harvested,1988,ha,1300000
-C么te d'Ivoire,Area harvested,1989,ha,1353000
-C么te d'Ivoire,Area harvested,1990,ha,1115596
-C么te d'Ivoire,Area harvested,1991,ha,1163560
-C么te d'Ivoire,Area harvested,1992,ha,1185538
-C么te d'Ivoire,Area harvested,1993,ha,1026144
-C么te d'Ivoire,Area harvested,1994,ha,1140765
-C么te d'Ivoire,Area harvested,1995,ha,1157449
-C么te d'Ivoire,Area harvested,1996,ha,975105
-C么te d'Ivoire,Area harvested,1997,ha,949181
-C么te d'Ivoire,Area harvested,1998,ha,829586
-C么te d'Ivoire,Area harvested,1999,ha,768277
-C么te d'Ivoire,Area harvested,2000,ha,764363
-C么te d'Ivoire,Area harvested,2001,ha,760406
-C么te d'Ivoire,Area harvested,2002,ha,759651
-C么te d'Ivoire,Area harvested,2003,ha,730329
-C么te d'Ivoire,Area harvested,2004,ha,743359
-C么te d'Ivoire,Area harvested,2005,ha,775972
-C么te d'Ivoire,Area harvested,2006,ha,788783
-C么te d'Ivoire,Area harvested,2007,ha,780280
-C么te d'Ivoire,Area harvested,2008,ha,811788
-C么te d'Ivoire,Area harvested,2009,ha,834856
-C么te d'Ivoire,Area harvested,2010,ha,864010
-C么te d'Ivoire,Area harvested,2011,ha,853688
-C么te d'Ivoire,Area harvested,2012,ha,1120956
-C么te d'Ivoire,Area harvested,2013,ha,1245530
-C么te d'Ivoire,Area harvested,2014,ha,1337522
-C么te d'Ivoire,Area harvested,2015,ha,1318299
-C么te d'Ivoire,Area harvested,2016,ha,1208002
-C么te d'Ivoire,Yield,1980,hg/ha,9274
-C么te d'Ivoire,Yield,1981,hg/ha,8978
-C么te d'Ivoire,Yield,1982,hg/ha,9490
-C么te d'Ivoire,Yield,1983,hg/ha,7847
-C么te d'Ivoire,Yield,1984,hg/ha,9708
-C么te d'Ivoire,Yield,1985,hg/ha,9867
-C么te d'Ivoire,Yield,1986,hg/ha,8515
-C么te d'Ivoire,Yield,1987,hg/ha,8476
-C么te d'Ivoire,Yield,1988,hg/ha,8851
-C么te d'Ivoire,Yield,1989,hg/ha,8827
-C么te d'Ivoire,Yield,1990,hg/ha,11125
-C么te d'Ivoire,Yield,1991,hg/ha,10528
-C么te d'Ivoire,Yield,1992,hg/ha,10508
-C么te d'Ivoire,Yield,1993,hg/ha,12354
-C么te d'Ivoire,Yield,1994,hg/ha,11310
-C么te d'Ivoire,Yield,1995,hg/ha,11417
-C么te d'Ivoire,Yield,1996,hg/ha,13888
-C么te d'Ivoire,Yield,1997,hg/ha,12868
-C么te d'Ivoire,Yield,1998,hg/ha,14986
-C么te d'Ivoire,Yield,1999,hg/ha,16457
-C么te d'Ivoire,Yield,2000,hg/ha,16823
-C么te d'Ivoire,Yield,2001,hg/ha,17199
-C么te d'Ivoire,Yield,2002,hg/ha,17509
-C么te d'Ivoire,Yield,2003,hg/ha,18270
-C么te d'Ivoire,Yield,2004,hg/ha,18539
-C么te d'Ivoire,Yield,2005,hg/ha,18363
-C么te d'Ivoire,Yield,2006,hg/ha,18279
-C么te d'Ivoire,Yield,2007,hg/ha,15694
-C么te d'Ivoire,Yield,2008,hg/ha,17350
-C么te d'Ivoire,Yield,2009,hg/ha,17115
-C么te d'Ivoire,Yield,2010,hg/ha,22705
-C么te d'Ivoire,Yield,2011,hg/ha,18829
-C么te d'Ivoire,Yield,2012,hg/ha,20808
-C么te d'Ivoire,Yield,2013,hg/ha,21778
-C么te d'Ivoire,Yield,2014,hg/ha,21352
-C么te d'Ivoire,Yield,2015,hg/ha,21564
-C么te d'Ivoire,Yield,2016,hg/ha,21339
-C么te d'Ivoire,Production,1980,tonnes,859900
-C么te d'Ivoire,Production,1981,tonnes,846680
-C么te d'Ivoire,Production,1982,tonnes,934475
-C么te d'Ivoire,Production,1983,tonnes,818885
-C么te d'Ivoire,Production,1984,tonnes,1096250
-C么te d'Ivoire,Production,1985,tonnes,1082424
-C么te d'Ivoire,Production,1986,tonnes,1043119
-C么te d'Ivoire,Production,1987,tonnes,1079837
-C么te d'Ivoire,Production,1988,tonnes,1150577
-C么te d'Ivoire,Production,1989,tonnes,1194341
-C么te d'Ivoire,Production,1990,tonnes,1241131
-C么te d'Ivoire,Production,1991,tonnes,1224938
-C么te d'Ivoire,Production,1992,tonnes,1245791
-C么te d'Ivoire,Production,1993,tonnes,1267664
-C么te d'Ivoire,Production,1994,tonnes,1290241
-C么te d'Ivoire,Production,1995,tonnes,1321407
-C么te d'Ivoire,Production,1996,tonnes,1354230
-C么te d'Ivoire,Production,1997,tonnes,1221428
-C么te d'Ivoire,Production,1998,tonnes,1243200
-C么te d'Ivoire,Production,1999,tonnes,1264364
-C么te d'Ivoire,Production,2000,tonnes,1285904
-C么te d'Ivoire,Production,2001,tonnes,1307824
-C么te d'Ivoire,Production,2002,tonnes,1330096
-C么te d'Ivoire,Production,2003,tonnes,1334280
-C么te d'Ivoire,Production,2004,tonnes,1378128
-C么te d'Ivoire,Production,2005,tonnes,1424903
-C么te d'Ivoire,Production,2006,tonnes,1441779
-C么te d'Ivoire,Production,2007,tonnes,1224570
-C么te d'Ivoire,Production,2008,tonnes,1408447
-C么te d'Ivoire,Production,2009,tonnes,1428840
-C么te d'Ivoire,Production,2010,tonnes,1961771
-C么te d'Ivoire,Production,2011,tonnes,1607414
-C么te d'Ivoire,Production,2012,tonnes,2332512
-C么te d'Ivoire,Production,2013,tonnes,2712481
-C么te d'Ivoire,Production,2014,tonnes,2855919
-C么te d'Ivoire,Production,2015,tonnes,2842823
-C么te d'Ivoire,Production,2016,tonnes,2577746
+C檛e d'Ivoire,Area harvested,1980,ha,927200
+C檛e d'Ivoire,Area harvested,1981,ha,943100
+C檛e d'Ivoire,Area harvested,1982,ha,984700
+C檛e d'Ivoire,Area harvested,1983,ha,1043500
+C檛e d'Ivoire,Area harvested,1984,ha,1129200
+C檛e d'Ivoire,Area harvested,1985,ha,1097000
+C檛e d'Ivoire,Area harvested,1986,ha,1225000
+C檛e d'Ivoire,Area harvested,1987,ha,1274000
+C檛e d'Ivoire,Area harvested,1988,ha,1300000
+C檛e d'Ivoire,Area harvested,1989,ha,1353000
+C檛e d'Ivoire,Area harvested,1990,ha,1115596
+C檛e d'Ivoire,Area harvested,1991,ha,1163560
+C檛e d'Ivoire,Area harvested,1992,ha,1185538
+C檛e d'Ivoire,Area harvested,1993,ha,1026144
+C檛e d'Ivoire,Area harvested,1994,ha,1140765
+C檛e d'Ivoire,Area harvested,1995,ha,1157449
+C檛e d'Ivoire,Area harvested,1996,ha,975105
+C檛e d'Ivoire,Area harvested,1997,ha,949181
+C檛e d'Ivoire,Area harvested,1998,ha,829586
+C檛e d'Ivoire,Area harvested,1999,ha,768277
+C檛e d'Ivoire,Area harvested,2000,ha,764363
+C檛e d'Ivoire,Area harvested,2001,ha,760406
+C檛e d'Ivoire,Area harvested,2002,ha,759651
+C檛e d'Ivoire,Area harvested,2003,ha,730329
+C檛e d'Ivoire,Area harvested,2004,ha,743359
+C檛e d'Ivoire,Area harvested,2005,ha,775972
+C檛e d'Ivoire,Area harvested,2006,ha,788783
+C檛e d'Ivoire,Area harvested,2007,ha,780280
+C檛e d'Ivoire,Area harvested,2008,ha,811788
+C檛e d'Ivoire,Area harvested,2009,ha,834856
+C檛e d'Ivoire,Area harvested,2010,ha,864010
+C檛e d'Ivoire,Area harvested,2011,ha,853688
+C檛e d'Ivoire,Area harvested,2012,ha,1120956
+C檛e d'Ivoire,Area harvested,2013,ha,1245530
+C檛e d'Ivoire,Area harvested,2014,ha,1337522
+C檛e d'Ivoire,Area harvested,2015,ha,1318299
+C檛e d'Ivoire,Area harvested,2016,ha,1208002
+C檛e d'Ivoire,Yield,1980,hg/ha,9274
+C檛e d'Ivoire,Yield,1981,hg/ha,8978
+C檛e d'Ivoire,Yield,1982,hg/ha,9490
+C檛e d'Ivoire,Yield,1983,hg/ha,7847
+C檛e d'Ivoire,Yield,1984,hg/ha,9708
+C檛e d'Ivoire,Yield,1985,hg/ha,9867
+C檛e d'Ivoire,Yield,1986,hg/ha,8515
+C檛e d'Ivoire,Yield,1987,hg/ha,8476
+C檛e d'Ivoire,Yield,1988,hg/ha,8851
+C檛e d'Ivoire,Yield,1989,hg/ha,8827
+C檛e d'Ivoire,Yield,1990,hg/ha,11125
+C檛e d'Ivoire,Yield,1991,hg/ha,10528
+C檛e d'Ivoire,Yield,1992,hg/ha,10508
+C檛e d'Ivoire,Yield,1993,hg/ha,12354
+C檛e d'Ivoire,Yield,1994,hg/ha,11310
+C檛e d'Ivoire,Yield,1995,hg/ha,11417
+C檛e d'Ivoire,Yield,1996,hg/ha,13888
+C檛e d'Ivoire,Yield,1997,hg/ha,12868
+C檛e d'Ivoire,Yield,1998,hg/ha,14986
+C檛e d'Ivoire,Yield,1999,hg/ha,16457
+C檛e d'Ivoire,Yield,2000,hg/ha,16823
+C檛e d'Ivoire,Yield,2001,hg/ha,17199
+C檛e d'Ivoire,Yield,2002,hg/ha,17509
+C檛e d'Ivoire,Yield,2003,hg/ha,18270
+C檛e d'Ivoire,Yield,2004,hg/ha,18539
+C檛e d'Ivoire,Yield,2005,hg/ha,18363
+C檛e d'Ivoire,Yield,2006,hg/ha,18279
+C檛e d'Ivoire,Yield,2007,hg/ha,15694
+C檛e d'Ivoire,Yield,2008,hg/ha,17350
+C檛e d'Ivoire,Yield,2009,hg/ha,17115
+C檛e d'Ivoire,Yield,2010,hg/ha,22705
+C檛e d'Ivoire,Yield,2011,hg/ha,18829
+C檛e d'Ivoire,Yield,2012,hg/ha,20808
+C檛e d'Ivoire,Yield,2013,hg/ha,21778
+C檛e d'Ivoire,Yield,2014,hg/ha,21352
+C檛e d'Ivoire,Yield,2015,hg/ha,21564
+C檛e d'Ivoire,Yield,2016,hg/ha,21339
+C檛e d'Ivoire,Production,1980,tonnes,859900
+C檛e d'Ivoire,Production,1981,tonnes,846680
+C檛e d'Ivoire,Production,1982,tonnes,934475
+C檛e d'Ivoire,Production,1983,tonnes,818885
+C檛e d'Ivoire,Production,1984,tonnes,1096250
+C檛e d'Ivoire,Production,1985,tonnes,1082424
+C檛e d'Ivoire,Production,1986,tonnes,1043119
+C檛e d'Ivoire,Production,1987,tonnes,1079837
+C檛e d'Ivoire,Production,1988,tonnes,1150577
+C檛e d'Ivoire,Production,1989,tonnes,1194341
+C檛e d'Ivoire,Production,1990,tonnes,1241131
+C檛e d'Ivoire,Production,1991,tonnes,1224938
+C檛e d'Ivoire,Production,1992,tonnes,1245791
+C檛e d'Ivoire,Production,1993,tonnes,1267664
+C檛e d'Ivoire,Production,1994,tonnes,1290241
+C檛e d'Ivoire,Production,1995,tonnes,1321407
+C檛e d'Ivoire,Production,1996,tonnes,1354230
+C檛e d'Ivoire,Production,1997,tonnes,1221428
+C檛e d'Ivoire,Production,1998,tonnes,1243200
+C檛e d'Ivoire,Production,1999,tonnes,1264364
+C檛e d'Ivoire,Production,2000,tonnes,1285904
+C檛e d'Ivoire,Production,2001,tonnes,1307824
+C檛e d'Ivoire,Production,2002,tonnes,1330096
+C檛e d'Ivoire,Production,2003,tonnes,1334280
+C檛e d'Ivoire,Production,2004,tonnes,1378128
+C檛e d'Ivoire,Production,2005,tonnes,1424903
+C檛e d'Ivoire,Production,2006,tonnes,1441779
+C檛e d'Ivoire,Production,2007,tonnes,1224570
+C檛e d'Ivoire,Production,2008,tonnes,1408447
+C檛e d'Ivoire,Production,2009,tonnes,1428840
+C檛e d'Ivoire,Production,2010,tonnes,1961771
+C檛e d'Ivoire,Production,2011,tonnes,1607414
+C檛e d'Ivoire,Production,2012,tonnes,2332512
+C檛e d'Ivoire,Production,2013,tonnes,2712481
+C檛e d'Ivoire,Production,2014,tonnes,2855919
+C檛e d'Ivoire,Production,2015,tonnes,2842823
+C檛e d'Ivoire,Production,2016,tonnes,2577746
 Democratic Republic of the Congo,Area harvested,1980,ha,1113100
 Democratic Republic of the Congo,Area harvested,1981,ha,1144000
 Democratic Republic of the Congo,Area harvested,1982,ha,1176800
@@ -4064,117 +3953,117 @@ Nigeria,Production,2013,tonnes,19617505
 Nigeria,Production,2014,tonnes,24495794
 Nigeria,Production,2015,tonnes,25451082
 Nigeria,Production,2016,tonnes,25035578
-R茅union,Area harvested,1980,ha,2400
-R茅union,Area harvested,1981,ha,2450
-R茅union,Area harvested,1982,ha,2450
-R茅union,Area harvested,1983,ha,2780
-R茅union,Area harvested,1984,ha,2500
-R茅union,Area harvested,1985,ha,2770
-R茅union,Area harvested,1986,ha,2940
-R茅union,Area harvested,1987,ha,2340
-R茅union,Area harvested,1988,ha,2930
-R茅union,Area harvested,1989,ha,2040
-R茅union,Area harvested,1990,ha,2440
-R茅union,Area harvested,1991,ha,2240
-R茅union,Area harvested,1992,ha,2640
-R茅union,Area harvested,1993,ha,2400
-R茅union,Area harvested,1994,ha,2739
-R茅union,Area harvested,1995,ha,2209
-R茅union,Area harvested,1996,ha,2150
-R茅union,Area harvested,1997,ha,1540
-R茅union,Area harvested,1998,ha,1551
-R茅union,Area harvested,1999,ha,1677
-R茅union,Area harvested,2000,ha,1711
-R茅union,Area harvested,2001,ha,1592
-R茅union,Area harvested,2002,ha,1559
-R茅union,Area harvested,2003,ha,1600
-R茅union,Area harvested,2004,ha,1748
-R茅union,Area harvested,2005,ha,1559
-R茅union,Area harvested,2006,ha,1951
-R茅union,Area harvested,2007,ha,2553
-R茅union,Area harvested,2008,ha,1854
-R茅union,Area harvested,2009,ha,1556
-R茅union,Area harvested,2010,ha,1575
-R茅union,Area harvested,2011,ha,1868
-R茅union,Area harvested,2012,ha,1890
-R茅union,Area harvested,2013,ha,1891
-R茅union,Area harvested,2014,ha,1891
-R茅union,Area harvested,2015,ha,1891
-R茅union,Area harvested,2016,ha,1889
-R茅union,Yield,1980,hg/ha,42808
-R茅union,Yield,1981,hg/ha,55102
-R茅union,Yield,1982,hg/ha,55102
-R茅union,Yield,1983,hg/ha,41763
-R茅union,Yield,1984,hg/ha,45200
-R茅union,Yield,1985,hg/ha,44729
-R茅union,Yield,1986,hg/ha,45833
-R茅union,Yield,1987,hg/ha,45192
-R茅union,Yield,1988,hg/ha,44689
-R茅union,Yield,1989,hg/ha,64093
-R茅union,Yield,1990,hg/ha,43074
-R茅union,Yield,1991,hg/ha,59595
-R茅union,Yield,1992,hg/ha,59773
-R茅union,Yield,1993,hg/ha,59117
-R茅union,Yield,1994,hg/ha,61280
-R茅union,Yield,1995,hg/ha,76004
-R茅union,Yield,1996,hg/ha,76023
-R茅union,Yield,1997,hg/ha,76629
-R茅union,Yield,1998,hg/ha,75608
-R茅union,Yield,1999,hg/ha,75837
-R茅union,Yield,2000,hg/ha,75981
-R茅union,Yield,2001,hg/ha,76159
-R茅union,Yield,2002,hg/ha,75906
-R茅union,Yield,2003,hg/ha,75919
-R茅union,Yield,2004,hg/ha,75289
-R茅union,Yield,2005,hg/ha,76162
-R茅union,Yield,2006,hg/ha,77818
-R茅union,Yield,2007,hg/ha,78723
-R茅union,Yield,2008,hg/ha,77167
-R茅union,Yield,2009,hg/ha,73416
-R茅union,Yield,2010,hg/ha,75940
-R茅union,Yield,2011,hg/ha,76468
-R茅union,Yield,2012,hg/ha,76368
-R茅union,Yield,2013,hg/ha,76420
-R茅union,Yield,2014,hg/ha,76500
-R茅union,Yield,2015,hg/ha,76632
-R茅union,Yield,2016,hg/ha,76743
-R茅union,Production,1980,tonnes,10274
-R茅union,Production,1981,tonnes,13500
-R茅union,Production,1982,tonnes,13500
-R茅union,Production,1983,tonnes,11610
-R茅union,Production,1984,tonnes,11300
-R茅union,Production,1985,tonnes,12390
-R茅union,Production,1986,tonnes,13475
-R茅union,Production,1987,tonnes,10575
-R茅union,Production,1988,tonnes,13094
-R茅union,Production,1989,tonnes,13075
-R茅union,Production,1990,tonnes,10510
-R茅union,Production,1991,tonnes,13349
-R茅union,Production,1992,tonnes,15780
-R茅union,Production,1993,tonnes,14188
-R茅union,Production,1994,tonnes,16783
-R茅union,Production,1995,tonnes,16787
-R茅union,Production,1996,tonnes,16348
-R茅union,Production,1997,tonnes,11797
-R茅union,Production,1998,tonnes,11727
-R茅union,Production,1999,tonnes,12717
-R茅union,Production,2000,tonnes,13002
-R茅union,Production,2001,tonnes,12124
-R茅union,Production,2002,tonnes,11835
-R茅union,Production,2003,tonnes,12148
-R茅union,Production,2004,tonnes,13161
-R茅union,Production,2005,tonnes,11873
-R茅union,Production,2006,tonnes,15186
-R茅union,Production,2007,tonnes,20098
-R茅union,Production,2008,tonnes,14310
-R茅union,Production,2009,tonnes,11422
-R茅union,Production,2010,tonnes,11961
-R茅union,Production,2011,tonnes,14284
-R茅union,Production,2012,tonnes,14434
-R茅union,Production,2013,tonnes,14449
-R茅union,Production,2014,tonnes,14469
-R茅union,Production,2015,tonnes,14491
-R茅union,Production,2016,tonnes,14496
+R巙nion,Area harvested,1980,ha,2400
+R巙nion,Area harvested,1981,ha,2450
+R巙nion,Area harvested,1982,ha,2450
+R巙nion,Area harvested,1983,ha,2780
+R巙nion,Area harvested,1984,ha,2500
+R巙nion,Area harvested,1985,ha,2770
+R巙nion,Area harvested,1986,ha,2940
+R巙nion,Area harvested,1987,ha,2340
+R巙nion,Area harvested,1988,ha,2930
+R巙nion,Area harvested,1989,ha,2040
+R巙nion,Area harvested,1990,ha,2440
+R巙nion,Area harvested,1991,ha,2240
+R巙nion,Area harvested,1992,ha,2640
+R巙nion,Area harvested,1993,ha,2400
+R巙nion,Area harvested,1994,ha,2739
+R巙nion,Area harvested,1995,ha,2209
+R巙nion,Area harvested,1996,ha,2150
+R巙nion,Area harvested,1997,ha,1540
+R巙nion,Area harvested,1998,ha,1551
+R巙nion,Area harvested,1999,ha,1677
+R巙nion,Area harvested,2000,ha,1711
+R巙nion,Area harvested,2001,ha,1592
+R巙nion,Area harvested,2002,ha,1559
+R巙nion,Area harvested,2003,ha,1600
+R巙nion,Area harvested,2004,ha,1748
+R巙nion,Area harvested,2005,ha,1559
+R巙nion,Area harvested,2006,ha,1951
+R巙nion,Area harvested,2007,ha,2553
+R巙nion,Area harvested,2008,ha,1854
+R巙nion,Area harvested,2009,ha,1556
+R巙nion,Area harvested,2010,ha,1575
+R巙nion,Area harvested,2011,ha,1868
+R巙nion,Area harvested,2012,ha,1890
+R巙nion,Area harvested,2013,ha,1891
+R巙nion,Area harvested,2014,ha,1891
+R巙nion,Area harvested,2015,ha,1891
+R巙nion,Area harvested,2016,ha,1889
+R巙nion,Yield,1980,hg/ha,42808
+R巙nion,Yield,1981,hg/ha,55102
+R巙nion,Yield,1982,hg/ha,55102
+R巙nion,Yield,1983,hg/ha,41763
+R巙nion,Yield,1984,hg/ha,45200
+R巙nion,Yield,1985,hg/ha,44729
+R巙nion,Yield,1986,hg/ha,45833
+R巙nion,Yield,1987,hg/ha,45192
+R巙nion,Yield,1988,hg/ha,44689
+R巙nion,Yield,1989,hg/ha,64093
+R巙nion,Yield,1990,hg/ha,43074
+R巙nion,Yield,1991,hg/ha,59595
+R巙nion,Yield,1992,hg/ha,59773
+R巙nion,Yield,1993,hg/ha,59117
+R巙nion,Yield,1994,hg/ha,61280
+R巙nion,Yield,1995,hg/ha,76004
+R巙nion,Yield,1996,hg/ha,76023
+R巙nion,Yield,1997,hg/ha,76629
+R巙nion,Yield,1998,hg/ha,75608
+R巙nion,Yield,1999,hg/ha,75837
+R巙nion,Yield,2000,hg/ha,75981
+R巙nion,Yield,2001,hg/ha,76159
+R巙nion,Yield,2002,hg/ha,75906
+R巙nion,Yield,2003,hg/ha,75919
+R巙nion,Yield,2004,hg/ha,75289
+R巙nion,Yield,2005,hg/ha,76162
+R巙nion,Yield,2006,hg/ha,77818
+R巙nion,Yield,2007,hg/ha,78723
+R巙nion,Yield,2008,hg/ha,77167
+R巙nion,Yield,2009,hg/ha,73416
+R巙nion,Yield,2010,hg/ha,75940
+R巙nion,Yield,2011,hg/ha,76468
+R巙nion,Yield,2012,hg/ha,76368
+R巙nion,Yield,2013,hg/ha,76420
+R巙nion,Yield,2014,hg/ha,76500
+R巙nion,Yield,2015,hg/ha,76632
+R巙nion,Yield,2016,hg/ha,76743
+R巙nion,Production,1980,tonnes,10274
+R巙nion,Production,1981,tonnes,13500
+R巙nion,Production,1982,tonnes,13500
+R巙nion,Production,1983,tonnes,11610
+R巙nion,Production,1984,tonnes,11300
+R巙nion,Production,1985,tonnes,12390
+R巙nion,Production,1986,tonnes,13475
+R巙nion,Production,1987,tonnes,10575
+R巙nion,Production,1988,tonnes,13094
+R巙nion,Production,1989,tonnes,13075
+R巙nion,Production,1990,tonnes,10510
+R巙nion,Production,1991,tonnes,13349
+R巙nion,Production,1992,tonnes,15780
+R巙nion,Production,1993,tonnes,14188
+R巙nion,Production,1994,tonnes,16783
+R巙nion,Production,1995,tonnes,16787
+R巙nion,Production,1996,tonnes,16348
+R巙nion,Production,1997,tonnes,11797
+R巙nion,Production,1998,tonnes,11727
+R巙nion,Production,1999,tonnes,12717
+R巙nion,Production,2000,tonnes,13002
+R巙nion,Production,2001,tonnes,12124
+R巙nion,Production,2002,tonnes,11835
+R巙nion,Production,2003,tonnes,12148
+R巙nion,Production,2004,tonnes,13161
+R巙nion,Production,2005,tonnes,11873
+R巙nion,Production,2006,tonnes,15186
+R巙nion,Production,2007,tonnes,20098
+R巙nion,Production,2008,tonnes,14310
+R巙nion,Production,2009,tonnes,11422
+R巙nion,Production,2010,tonnes,11961
+R巙nion,Production,2011,tonnes,14284
+R巙nion,Production,2012,tonnes,14434
+R巙nion,Production,2013,tonnes,14449
+R巙nion,Production,2014,tonnes,14469
+R巙nion,Production,2015,tonnes,14491
+R巙nion,Production,2016,tonnes,14496
 Rwanda,Area harvested,1980,ha,224918
 Rwanda,Area harvested,1981,ha,259000
 Rwanda,Area harvested,1982,ha,263465
@@ -4286,117 +4175,6 @@ Rwanda,Production,2013,tonnes,993556
 Rwanda,Production,2014,tonnes,869206
 Rwanda,Production,2015,tonnes,686490
 Rwanda,Production,2016,tonnes,736890
-Sao Tome and Principe,Area harvested,1980,ha,300
-Sao Tome and Principe,Area harvested,1981,ha,330
-Sao Tome and Principe,Area harvested,1982,ha,330
-Sao Tome and Principe,Area harvested,1983,ha,400
-Sao Tome and Principe,Area harvested,1984,ha,450
-Sao Tome and Principe,Area harvested,1985,ha,480
-Sao Tome and Principe,Area harvested,1986,ha,600
-Sao Tome and Principe,Area harvested,1987,ha,750
-Sao Tome and Principe,Area harvested,1988,ha,850
-Sao Tome and Principe,Area harvested,1989,ha,1000
-Sao Tome and Principe,Area harvested,1990,ha,1400
-Sao Tome and Principe,Area harvested,1991,ha,1700
-Sao Tome and Principe,Area harvested,1992,ha,1800
-Sao Tome and Principe,Area harvested,1993,ha,1826
-Sao Tome and Principe,Area harvested,1994,ha,1900
-Sao Tome and Principe,Area harvested,1995,ha,1800
-Sao Tome and Principe,Area harvested,1996,ha,2000
-Sao Tome and Principe,Area harvested,1997,ha,1800
-Sao Tome and Principe,Area harvested,1998,ha,700
-Sao Tome and Principe,Area harvested,1999,ha,708
-Sao Tome and Principe,Area harvested,2000,ha,1000
-Sao Tome and Principe,Area harvested,2001,ha,1150
-Sao Tome and Principe,Area harvested,2002,ha,1210
-Sao Tome and Principe,Area harvested,2003,ha,1220
-Sao Tome and Principe,Area harvested,2004,ha,1235
-Sao Tome and Principe,Area harvested,2005,ha,1240
-Sao Tome and Principe,Area harvested,2006,ha,1100
-Sao Tome and Principe,Area harvested,2007,ha,1300
-Sao Tome and Principe,Area harvested,2008,ha,1300
-Sao Tome and Principe,Area harvested,2009,ha,1300
-Sao Tome and Principe,Area harvested,2010,ha,1083
-Sao Tome and Principe,Area harvested,2011,ha,514
-Sao Tome and Principe,Area harvested,2012,ha,435
-Sao Tome and Principe,Area harvested,2013,ha,368
-Sao Tome and Principe,Area harvested,2014,ha,362
-Sao Tome and Principe,Area harvested,2015,ha,522
-Sao Tome and Principe,Area harvested,2016,ha,485
-Sao Tome and Principe,Yield,1980,hg/ha,15000
-Sao Tome and Principe,Yield,1981,hg/ha,15152
-Sao Tome and Principe,Yield,1982,hg/ha,15152
-Sao Tome and Principe,Yield,1983,hg/ha,15000
-Sao Tome and Principe,Yield,1984,hg/ha,15556
-Sao Tome and Principe,Yield,1985,hg/ha,15167
-Sao Tome and Principe,Yield,1986,hg/ha,15000
-Sao Tome and Principe,Yield,1987,hg/ha,16000
-Sao Tome and Principe,Yield,1988,hg/ha,17647
-Sao Tome and Principe,Yield,1989,hg/ha,20000
-Sao Tome and Principe,Yield,1990,hg/ha,19286
-Sao Tome and Principe,Yield,1991,hg/ha,21176
-Sao Tome and Principe,Yield,1992,hg/ha,22222
-Sao Tome and Principe,Yield,1993,hg/ha,21908
-Sao Tome and Principe,Yield,1994,hg/ha,22632
-Sao Tome and Principe,Yield,1995,hg/ha,22222
-Sao Tome and Principe,Yield,1996,hg/ha,22500
-Sao Tome and Principe,Yield,1997,hg/ha,22222
-Sao Tome and Principe,Yield,1998,hg/ha,19314
-Sao Tome and Principe,Yield,1999,hg/ha,21012
-Sao Tome and Principe,Yield,2000,hg/ha,22300
-Sao Tome and Principe,Yield,2001,hg/ha,21739
-Sao Tome and Principe,Yield,2002,hg/ha,21074
-Sao Tome and Principe,Yield,2003,hg/ha,21311
-Sao Tome and Principe,Yield,2004,hg/ha,21457
-Sao Tome and Principe,Yield,2005,hg/ha,22325
-Sao Tome and Principe,Yield,2006,hg/ha,24545
-Sao Tome and Principe,Yield,2007,hg/ha,23077
-Sao Tome and Principe,Yield,2008,hg/ha,21538
-Sao Tome and Principe,Yield,2009,hg/ha,15385
-Sao Tome and Principe,Yield,2010,hg/ha,14471
-Sao Tome and Principe,Yield,2011,hg/ha,21080
-Sao Tome and Principe,Yield,2012,hg/ha,21092
-Sao Tome and Principe,Yield,2013,hg/ha,21065
-Sao Tome and Principe,Yield,2014,hg/ha,21038
-Sao Tome and Principe,Yield,2015,hg/ha,21011
-Sao Tome and Principe,Yield,2016,hg/ha,20984
-Sao Tome and Principe,Production,1980,tonnes,450
-Sao Tome and Principe,Production,1981,tonnes,500
-Sao Tome and Principe,Production,1982,tonnes,500
-Sao Tome and Principe,Production,1983,tonnes,600
-Sao Tome and Principe,Production,1984,tonnes,700
-Sao Tome and Principe,Production,1985,tonnes,728
-Sao Tome and Principe,Production,1986,tonnes,900
-Sao Tome and Principe,Production,1987,tonnes,1200
-Sao Tome and Principe,Production,1988,tonnes,1500
-Sao Tome and Principe,Production,1989,tonnes,2000
-Sao Tome and Principe,Production,1990,tonnes,2700
-Sao Tome and Principe,Production,1991,tonnes,3600
-Sao Tome and Principe,Production,1992,tonnes,4000
-Sao Tome and Principe,Production,1993,tonnes,4000
-Sao Tome and Principe,Production,1994,tonnes,4300
-Sao Tome and Principe,Production,1995,tonnes,4000
-Sao Tome and Principe,Production,1996,tonnes,4500
-Sao Tome and Principe,Production,1997,tonnes,4000
-Sao Tome and Principe,Production,1998,tonnes,1352
-Sao Tome and Principe,Production,1999,tonnes,1487
-Sao Tome and Principe,Production,2000,tonnes,2230
-Sao Tome and Principe,Production,2001,tonnes,2500
-Sao Tome and Principe,Production,2002,tonnes,2550
-Sao Tome and Principe,Production,2003,tonnes,2600
-Sao Tome and Principe,Production,2004,tonnes,2650
-Sao Tome and Principe,Production,2005,tonnes,2768
-Sao Tome and Principe,Production,2006,tonnes,2700
-Sao Tome and Principe,Production,2007,tonnes,3000
-Sao Tome and Principe,Production,2008,tonnes,2800
-Sao Tome and Principe,Production,2009,tonnes,2000
-Sao Tome and Principe,Production,2010,tonnes,1568
-Sao Tome and Principe,Production,2011,tonnes,1085
-Sao Tome and Principe,Production,2012,tonnes,917
-Sao Tome and Principe,Production,2013,tonnes,776
-Sao Tome and Principe,Production,2014,tonnes,762
-Sao Tome and Principe,Production,2015,tonnes,1096
-Sao Tome and Principe,Production,2016,tonnes,1018
 Senegal,Area harvested,1980,ha,1234834
 Senegal,Area harvested,1981,ha,1336682
 Senegal,Area harvested,1982,ha,1142154
@@ -4871,102 +4649,102 @@ Sudan,Production,2013,tonnes,5947000
 Sudan,Production,2014,tonnes,8063900
 Sudan,Production,2015,tonnes,4088600
 Sudan,Production,2016,tonnes,8509000
-Sudan (former),Area harvested,1980,ha,4290453
-Sudan (former),Area harvested,1981,ha,5400934
-Sudan (former),Area harvested,1982,ha,4759713
-Sudan (former),Area harvested,1983,ha,5109180
-Sudan (former),Area harvested,1984,ha,4987021
-Sudan (former),Area harvested,1985,ha,7347342
-Sudan (former),Area harvested,1986,ha,6718950
-Sudan (former),Area harvested,1987,ha,4658280
-Sudan (former),Area harvested,1988,ha,8168746
-Sudan (former),Area harvested,1989,ha,5586558
-Sudan (former),Area harvested,1990,ha,3734629
-Sudan (former),Area harvested,1991,ha,6807379
-Sudan (former),Area harvested,1992,ha,8258795
-Sudan (former),Area harvested,1993,ha,6163842
-Sudan (former),Area harvested,1994,ha,10123688
-Sudan (former),Area harvested,1995,ha,7779570
-Sudan (former),Area harvested,1996,ha,8570100
-Sudan (former),Area harvested,1997,ha,9777220
-Sudan (former),Area harvested,1998,ha,9398620
-Sudan (former),Area harvested,1999,ha,7137840
-Sudan (former),Area harvested,2000,ha,6451260
-Sudan (former),Area harvested,2001,ha,8526340
-Sudan (former),Area harvested,2002,ha,7623682
-Sudan (former),Area harvested,2003,ha,9899820
-Sudan (former),Area harvested,2004,ha,5349940
-Sudan (former),Area harvested,2005,ha,12342840
-Sudan (former),Area harvested,2006,ha,9004586
-Sudan (former),Area harvested,2007,ha,9172504
-Sudan (former),Area harvested,2008,ha,9290904
-Sudan (former),Area harvested,2009,ha,9453803
-Sudan (former),Area harvested,2010,ha,7886440
-Sudan (former),Area harvested,2011,ha,9929220
-Sudan (former),Yield,1980,hg/ha,6295
-Sudan (former),Yield,1981,hg/ha,7601
-Sudan (former),Yield,1982,hg/ha,4803
-Sudan (former),Yield,1983,hg/ha,4941
-Sudan (former),Yield,1984,hg/ha,2904
-Sudan (former),Yield,1985,hg/ha,5598
-Sudan (former),Yield,1986,hg/ha,5654
-Sudan (former),Yield,1987,hg/ha,3648
-Sudan (former),Yield,1988,hg/ha,6283
-Sudan (former),Yield,1989,hg/ha,3694
-Sudan (former),Yield,1990,hg/ha,4630
-Sudan (former),Yield,1991,hg/ha,6812
-Sudan (former),Yield,1992,hg/ha,6516
-Sudan (former),Yield,1993,hg/ha,5032
-Sudan (former),Yield,1994,hg/ha,5083
-Sudan (former),Yield,1995,hg/ha,4249
-Sudan (former),Yield,1996,hg/ha,6070
-Sudan (former),Yield,1997,hg/ha,4305
-Sudan (former),Yield,1998,hg/ha,5940
-Sudan (former),Yield,1999,hg/ha,4295
-Sudan (former),Yield,2000,hg/ha,5052
-Sudan (former),Yield,2001,hg/ha,6262
-Sudan (former),Yield,2002,hg/ha,4872
-Sudan (former),Yield,2003,hg/ha,6437
-Sudan (former),Yield,2004,hg/ha,6572
-Sudan (former),Yield,2005,hg/ha,5058
-Sudan (former),Yield,2006,hg/ha,6448
-Sudan (former),Yield,2007,hg/ha,7295
-Sudan (former),Yield,2008,hg/ha,5671
-Sudan (former),Yield,2009,hg/ha,5873
-Sudan (former),Yield,2010,hg/ha,4517
-Sudan (former),Yield,2011,hg/ha,5638
-Sudan (former),Production,1980,tonnes,2701000
-Sudan (former),Production,1981,tonnes,4105000
-Sudan (former),Production,1982,tonnes,2286000
-Sudan (former),Production,1983,tonnes,2524500
-Sudan (former),Production,1984,tonnes,1448000
-Sudan (former),Production,1985,tonnes,4112900
-Sudan (former),Production,1986,tonnes,3798600
-Sudan (former),Production,1987,tonnes,1699200
-Sudan (former),Production,1988,tonnes,5132200
-Sudan (former),Production,1989,tonnes,2063500
-Sudan (former),Production,1990,tonnes,1729000
-Sudan (former),Production,1991,tonnes,4637100
-Sudan (former),Production,1992,tonnes,5381200
-Sudan (former),Production,1993,tonnes,3101500
-Sudan (former),Production,1994,tonnes,5145650
-Sudan (former),Production,1995,tonnes,3305200
-Sudan (former),Production,1996,tonnes,5202000
-Sudan (former),Production,1997,tonnes,4209000
-Sudan (former),Production,1998,tonnes,5583000
-Sudan (former),Production,1999,tonnes,3066000
-Sudan (former),Production,2000,tonnes,3259000
-Sudan (former),Production,2001,tonnes,5339000
-Sudan (former),Production,2002,tonnes,3714000
-Sudan (former),Production,2003,tonnes,6372748
-Sudan (former),Production,2004,tonnes,3516000
-Sudan (former),Production,2005,tonnes,6243000
-Sudan (former),Production,2006,tonnes,5806000
-Sudan (former),Production,2007,tonnes,6691000
-Sudan (former),Production,2008,tonnes,5269000
-Sudan (former),Production,2009,tonnes,5552195
-Sudan (former),Production,2010,tonnes,3562350
-Sudan (former),Production,2011,tonnes,5598000
+Sudan,Area harvested,1980,ha,4290453
+Sudan,Area harvested,1981,ha,5400934
+Sudan,Area harvested,1982,ha,4759713
+Sudan,Area harvested,1983,ha,5109180
+Sudan,Area harvested,1984,ha,4987021
+Sudan,Area harvested,1985,ha,7347342
+Sudan,Area harvested,1986,ha,6718950
+Sudan,Area harvested,1987,ha,4658280
+Sudan,Area harvested,1988,ha,8168746
+Sudan,Area harvested,1989,ha,5586558
+Sudan,Area harvested,1990,ha,3734629
+Sudan,Area harvested,1991,ha,6807379
+Sudan,Area harvested,1992,ha,8258795
+Sudan,Area harvested,1993,ha,6163842
+Sudan,Area harvested,1994,ha,10123688
+Sudan,Area harvested,1995,ha,7779570
+Sudan,Area harvested,1996,ha,8570100
+Sudan,Area harvested,1997,ha,9777220
+Sudan,Area harvested,1998,ha,9398620
+Sudan,Area harvested,1999,ha,7137840
+Sudan,Area harvested,2000,ha,6451260
+Sudan,Area harvested,2001,ha,8526340
+Sudan,Area harvested,2002,ha,7623682
+Sudan,Area harvested,2003,ha,9899820
+Sudan,Area harvested,2004,ha,5349940
+Sudan,Area harvested,2005,ha,12342840
+Sudan,Area harvested,2006,ha,9004586
+Sudan,Area harvested,2007,ha,9172504
+Sudan,Area harvested,2008,ha,9290904
+Sudan,Area harvested,2009,ha,9453803
+Sudan,Area harvested,2010,ha,7886440
+Sudan,Area harvested,2011,ha,9929220
+Sudan,Yield,1980,hg/ha,6295
+Sudan,Yield,1981,hg/ha,7601
+Sudan,Yield,1982,hg/ha,4803
+Sudan,Yield,1983,hg/ha,4941
+Sudan,Yield,1984,hg/ha,2904
+Sudan,Yield,1985,hg/ha,5598
+Sudan,Yield,1986,hg/ha,5654
+Sudan,Yield,1987,hg/ha,3648
+Sudan,Yield,1988,hg/ha,6283
+Sudan,Yield,1989,hg/ha,3694
+Sudan,Yield,1990,hg/ha,4630
+Sudan,Yield,1991,hg/ha,6812
+Sudan,Yield,1992,hg/ha,6516
+Sudan,Yield,1993,hg/ha,5032
+Sudan,Yield,1994,hg/ha,5083
+Sudan,Yield,1995,hg/ha,4249
+Sudan,Yield,1996,hg/ha,6070
+Sudan,Yield,1997,hg/ha,4305
+Sudan,Yield,1998,hg/ha,5940
+Sudan,Yield,1999,hg/ha,4295
+Sudan,Yield,2000,hg/ha,5052
+Sudan,Yield,2001,hg/ha,6262
+Sudan,Yield,2002,hg/ha,4872
+Sudan,Yield,2003,hg/ha,6437
+Sudan,Yield,2004,hg/ha,6572
+Sudan,Yield,2005,hg/ha,5058
+Sudan,Yield,2006,hg/ha,6448
+Sudan,Yield,2007,hg/ha,7295
+Sudan,Yield,2008,hg/ha,5671
+Sudan,Yield,2009,hg/ha,5873
+Sudan,Yield,2010,hg/ha,4517
+Sudan,Yield,2011,hg/ha,5638
+Sudan,Production,1980,tonnes,2701000
+Sudan,Production,1981,tonnes,4105000
+Sudan,Production,1982,tonnes,2286000
+Sudan,Production,1983,tonnes,2524500
+Sudan,Production,1984,tonnes,1448000
+Sudan,Production,1985,tonnes,4112900
+Sudan,Production,1986,tonnes,3798600
+Sudan,Production,1987,tonnes,1699200
+Sudan,Production,1988,tonnes,5132200
+Sudan,Production,1989,tonnes,2063500
+Sudan,Production,1990,tonnes,1729000
+Sudan,Production,1991,tonnes,4637100
+Sudan,Production,1992,tonnes,5381200
+Sudan,Production,1993,tonnes,3101500
+Sudan,Production,1994,tonnes,5145650
+Sudan,Production,1995,tonnes,3305200
+Sudan,Production,1996,tonnes,5202000
+Sudan,Production,1997,tonnes,4209000
+Sudan,Production,1998,tonnes,5583000
+Sudan,Production,1999,tonnes,3066000
+Sudan,Production,2000,tonnes,3259000
+Sudan,Production,2001,tonnes,5339000
+Sudan,Production,2002,tonnes,3714000
+Sudan,Production,2003,tonnes,6372748
+Sudan,Production,2004,tonnes,3516000
+Sudan,Production,2005,tonnes,6243000
+Sudan,Production,2006,tonnes,5806000
+Sudan,Production,2007,tonnes,6691000
+Sudan,Production,2008,tonnes,5269000
+Sudan,Production,2009,tonnes,5552195
+Sudan,Production,2010,tonnes,3562350
+Sudan,Production,2011,tonnes,5598000
 Swaziland,Area harvested,1980,ha,75733
 Swaziland,Area harvested,1981,ha,58822
 Swaziland,Area harvested,1982,ha,62007

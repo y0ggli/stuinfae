@@ -3,10 +3,10 @@ import * as topojson from 'topojson';
 
 
 const colors = {
-    area_first: '#00e676',
-    area_second: '#66ffa6',
-    prod_first: '#e65800',
-    prod_second: '#ff9c66',
+    area_1980: '#00e676',
+    area_2016: '#66ffa6',
+    prod_1980: '#e65800',
+    prod_2016: '#ff9c66',
     highlight: '#ff6691'
 };
 
@@ -20,7 +20,7 @@ const svg = d3.select('.container')
 
 let projection = d3.geoMercator()
     .scale(500)
-    .translate([width / 2, height / 2.5]);
+    .translate([width / 2.5, height / 2.5]);
 
 let path = d3.geoPath().projection(projection);
 let areaHarvested;
@@ -43,7 +43,7 @@ Promise.all([
             d.Value = +d.Value;
         });
         //console.log(data);
-        console.log(africa);
+        //console.log(africa);
         draw(data, africa);
     }).catch(e => {
     throw e;
@@ -146,8 +146,8 @@ function drawAreaHarvested(g, data, map) {
         .on("mouseout", d=> deactivateMouseOver(d,map))
         .attr('class', 'bubble')
         .attr("r", 0)
-        .attr("fill", colors.area_second)
-        .attr('stroke', colors.area_second)
+        .attr("fill", colors.area_2016)
+        .attr('stroke', colors.area_2016)
         .attr("transform", d => {
             for (let i = 0; i < map.data().length; i++) {
                 let p = map.data()[i];
@@ -169,13 +169,12 @@ function drawAreaHarvested(g, data, map) {
         .on("mouseout", d=> deactivateMouseOver(d,map))
         .attr('class', 'bubble')
         .attr("r", 0)
-        .attr('stroke', colors.area_first)
+        .attr('stroke', colors.area_1980)
         .attr('fill', d => {
-            //console.log(getMaxYear(d).Year);
             if (getMaxYear(d).Year === 1980) {
                 return 'none'
             } else {
-                return colors.area_first
+                return colors.area_1980
             }
         })
         .attr("transform", d => {
@@ -218,8 +217,8 @@ function drawProduction(g, data, map) {
         .attr('class', 'bar')
         .attr('width', rectWidth)
         .attr('height', 0)
-        .attr('stroke', colors.prod_second)
-        .attr('fill', colors.prod_second)
+        .attr('stroke', colors.prod_2016)
+        .attr('fill', colors.prod_2016)
         .attr("transform", (d) => {
             for (let i = 0; i < map.data().length; i++) {
                 let p = map.data()[i];
@@ -249,12 +248,12 @@ function drawProduction(g, data, map) {
         .attr('class', 'bar')
         .attr('width', rectWidth)
         .attr('height', 0)
-        .attr('stroke', colors.prod_first)
+        .attr('stroke', colors.prod_1980)
         .attr('fill', d => {
             if (getMaxYear(d).Year === 1980) {
                 return 'none'
             } else {
-                return colors.prod_first
+                return colors.prod_1980
             }
         })
         .attr("transform", (d) => {
@@ -286,7 +285,6 @@ function activateMouseOver(d,map) {
     for (let i = 0; i < map.data().length; i++) {
         let p = map.data()[i];
         if (p.properties.geounit === d["Name"]) {
-            console.log(p);
             handleMouseOver(p);
         }
     }
@@ -296,7 +294,6 @@ function deactivateMouseOver(d,map) {
     for (let i = 0; i < map.data().length; i++) {
         let p = map.data()[i];
         if (p.properties.geounit === d["Name"]) {
-            console.log(p);
             handleMouseOut(p);
         }
     }
@@ -306,19 +303,27 @@ function deactivateMouseOver(d,map) {
 function handleMouseOver(d) {
     let area = getYearsForArea(d, areaHarvested);
     let prod = getYearsForArea(d, production);
+    let yie = getYearsForArea(d,yieldHgHa);
     //console.log(area)
     //console.log(prod)
+    //console.log(yie)
     document.getElementById(d.properties.geounit).classList.add('hover');
     tooltip
         .transition()
         .duration(200)
         .style("opacity", 1);
 
-    if (area == null || prod == null) {
+    let t0;
+    let t1;
+
+
+    if (area == null || prod == null || yie == null) {
         tooltip.html(
             "<h2>No Data :'(</h2>"
         )
     } else {
+        t0 = Math.round(yie.Years[0].Value / 1000);
+        t1= Math.round(yie.Years[1].Value / 1000);
         tooltip.html(
             '<h2>' + area.Name + '</h2>' +
             '<h3>Area harvested</h3>' +
@@ -342,9 +347,38 @@ function handleMouseOver(d) {
             '<div class="rect"></div>' +
             '<p class="year">' + prod.Years[0].Year + ': ' + '</p>' +
             '<p class="value">' + prod.Years[0].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
-            '</div>'
+            '</div>'+
+            '<h3>Yield 100kg/ha</h3>' +
+            '<div id="yield" class="ha"></div>'
         )
     }
+    let wheat = d3.select("#yield").append("svg");
+    let haSquare = 180;
+    let wheatWidth = 20;
+    let wheat1980 = "assets/wheat1980.svg";
+    let wheat2016 = "assets/wheat2016.svg";
+    if (t0 > t1) {
+        drawYield(t0, wheat2016);
+        drawYield(t1, wheat1980);
+    } else {
+        drawYield(t1, wheat1980);
+        drawYield(t0, wheat2016);
+    }
+
+    function drawYield(amount, svg) {
+        for(let i = 0; i < amount; i++) {
+            wheat
+                .append("svg:image")
+                .attr("xlink:href", svg)
+                .attr("x", wheatWidth * (i % 10))
+                .attr("y", haSquare - (wheatWidth+2) * Math.floor(i/10))
+                .attr("width", wheatWidth)
+                .attr("height", wheatWidth);
+        }
+
+
+    }
+
 
 }
 

@@ -1,10 +1,10 @@
 @import "~normalize.css/normalize.css";
 
 $font_stack: Helvetica, sans-serif;
-$area_first: #00e676;
-$area_second: #66ffa6;
-$prod_first: #e65800;
-$prod_second: #ff9c66;
+$area_1980: #00e676;
+$area_2016: #66ffa6;
+$prod_1980: #e65800;
+$prod_2016: #ff9c66;
 $highlight: #ff6691;
 $background: #222222;
 $text_size: 1rem;
@@ -23,6 +23,7 @@ body{
   p {
     color: white;
     line-height: 1.2rem;
+
   }
 }
 
@@ -44,9 +45,6 @@ svg{
   stroke-linejoin: round;
   stroke-linecap: round;
 
-/*  &:hover {
-    fill: $highlight;
-  }*/
 }
 
 .hover {
@@ -55,9 +53,9 @@ svg{
 
 .container{
   display: grid;
-  grid-template-columns: 33% auto;
-  grid-template-rows: 10% 20% 40% auto;
-  padding: 0 2rem;
+  grid-template-columns: 35% auto;
+  grid-template-rows: 10% 15% 40% auto;
+  padding: 0 4rem;
   height: 100%;
 }
 
@@ -66,6 +64,7 @@ svg{
   grid-row: 2 / 2;
   width: 100%;
   height:100%;
+  //padding-left: 20px;
 
 
 }
@@ -73,28 +72,31 @@ svg{
 
 .tooltip {
   grid-column: 1;
-  grid-row: 3 / 3;
-  text-align: center;
-  border-radius: 8px;
+  grid-row: 3 / 5;
+  text-align: left;
+  //border-radius: 8px;
+  //border: solid 2px $highlight;
   pointer-events: none;
   background: $background;
-  border: solid 2px $highlight;
+  padding-left: 20px;
+
 
   h2 {
-    padding: 0 10px;
-    color: white;
+    //padding: 0 10px;
+    color: $highlight;
+    margin: 20px 20px 20px 0;
   }
 
   h3 {
     color: white;
     text-align: left;
-    margin: 20px 20px 10px 20px;
+    margin: 20px 20px 20px 0;
 
   }
 
   .info {
     display: flex;
-    margin: 5px 20px;
+    margin: 5px 10px;
 
     $margin: 5px 10px;
 
@@ -129,14 +131,13 @@ svg{
   }
 
   .area1980 {
-    $margin: 5px 10px;
 
     .circle {
-      background: $area_first;
+      background: $area_1980;
     }
 
     .year {
-      color: $area_first;
+      color: $area_1980;
     }
 
   }
@@ -144,11 +145,11 @@ svg{
   .area2016 {
 
     .circle {
-      background: $area_second;
+      background: $area_2016;
     }
 
     .year {
-      color: $area_second;
+      color: $area_2016;
     }
 
   }
@@ -156,11 +157,11 @@ svg{
   .prod2016 {
 
     .rect {
-      background: $prod_second;
+      background: $prod_2016;
     }
 
     .year {
-      color: $prod_second;
+      color: $prod_2016;
     }
 
   }
@@ -168,18 +169,28 @@ svg{
   .prod1980 {
 
       .rect {
-        background: $prod_first;
+        background: $prod_1980;
       }
 
       .year {
-        color: $prod_first;
+        color: $prod_1980;
       }
 
     }
+
+  .ha {
+    margin: 5px 10px;
+    border: solid 2px #66ffa6;
+    border-radius: 5px;
+    width: 200px;
+    height: 202px;
+    padding: 0 1px;
+  }
 }
 
 .title {
   grid-column: 1 / span 2;
   grid-row: 1;
   color: white;
+  margin: 2rem 0 0 0;
 }
