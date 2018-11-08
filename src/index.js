@@ -34,8 +34,8 @@ let rectWidth = 5;
 
 //Load Data and Draw
 Promise.all([
-    d3.csv('/data/Cereals1980-2016.csv'),
-    d3.json('/data/africa.json')
+    d3.csv('data/Cereals1980-2016.csv'),
+    d3.json('data/africa.json')
 ])
     .then(([data, africa]) => {
         data.forEach(d => {
