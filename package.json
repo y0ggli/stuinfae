@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --port 8080",
-    "build": "webpack -p --config webpack.config.js --hide-modules --progress --mode production"
+    "build": "webpack -p --config webpack.config.js --hide-modules --progress --mode production",
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "author": "Yannick Bättig",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
+    "push-dir": "^0.4.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.14.0",
