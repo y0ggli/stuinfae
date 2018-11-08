@@ -1,10 +1,18 @@
 @import "~normalize.css/normalize.css";
 
 $font_stack: Helvetica, sans-serif;
+/*
 $area_1980: #00e676;
 $area_2016: #66ffa6;
 $prod_1980: #e65800;
 $prod_2016: #ff9c66;
+$highlight: #ff6691;
+*/
+
+$area_1980: #00e676;
+$area_2016: #66ffa6;
+$prod_1980: #2d87fc;
+$prod_2016: #66bfff;
 $highlight: #ff6691;
 $background: #222222;
 $text_size: 1rem;
@@ -64,7 +72,6 @@ svg{
   height:100%;
   //padding-left: 20px;
 
-
 }
 
 
@@ -88,7 +95,7 @@ svg{
   h3 {
     color: white;
     text-align: left;
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 5px 0;
 
   }
 
@@ -177,13 +184,58 @@ svg{
     }
 
   .ha {
-    margin: 5px 10px;
+    margin: 10px 10px;
     border: solid 2px #66ffa6;
     border-radius: 5px;
-    width: 200px;
-    height: 202px;
-    padding: 0 1px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+
+
+    .ha_line {
+      height: 10px;
+      width: 15px;
+      position: absolute;
+      top: -15px;
+      left: 255px;
+      border-top: 1px solid white;
+      border-left: 1px solid white;
+      transform: skew(-45deg);
+    }
+
+    .ha_tip {
+      position: absolute;
+      top: -25px;
+      left: 275px;
+      font-size: 0.8rem;
+      width: 40px;
+      height: auto;
+      margin: 0 0 0 5px;
+    }
+    .wheat_line {
+      height: 20px;
+      width: 245px;
+      position: absolute;
+      top: 240px;
+      left: 25px;
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+      transform: skew(30deg);
+    }
+
+    .wheat_tip {
+      position: absolute;
+      top: 250px;
+      left: 275px;
+      font-size: 0.8rem;
+      width: 40px;
+      height: auto;
+      margin: 0 0 0 5px;
+    }
+
   }
+
+
 }
 
 .title {
@@ -191,4 +243,8 @@ svg{
   grid-row: 1;
   color: white;
   margin: 2rem 0 0 0;
+}
+
+.fill {
+  fill: $prod_2016;
 }

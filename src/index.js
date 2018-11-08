@@ -3,10 +3,16 @@ import * as topojson from 'topojson';
 
 
 const colors = {
+/*    area_1980: '#00e676',
+    area_2016: '#69ff73',
+    prod_1980: '#ebd403',
+    prod_2016: '#f5ff69',
+    highlight: '#be69ff'*/
+
     area_1980: '#00e676',
     area_2016: '#66ffa6',
-    prod_1980: '#e65800',
-    prod_2016: '#ff9c66',
+    prod_1980: '#2d87fc',
+    prod_2016: '#66bfff',
     highlight: '#ff6691'
 };
 
@@ -348,13 +354,18 @@ function handleMouseOver(d) {
             '<p class="year">' + prod.Years[0].Year + ': ' + '</p>' +
             '<p class="value">' + prod.Years[0].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
             '</div>'+
-            '<h3>Yield 100kg/ha</h3>' +
-            '<div id="yield" class="ha"></div>'
+            '<h3>Yield</h3>' +
+            '<div id="yield" class="ha">' +
+            '<div class="ha_line"></div>' +
+            '<p class="ha_tip">1 ha</p>' +
+            '<div class="wheat_line"></div>' +
+            '<p class="wheat_tip">100 kg</p>' +
+            '</div>'
         )
     }
     let wheat = d3.select("#yield").append("svg");
-    let haSquare = 180;
-    let wheatWidth = 20;
+    let haSquare = 225;
+    let wheatWidth = 25;
     let wheat1980 = "assets/wheat1980.svg";
     let wheat2016 = "assets/wheat2016.svg";
     if (t0 > t1) {
@@ -371,7 +382,7 @@ function handleMouseOver(d) {
                 .append("svg:image")
                 .attr("xlink:href", svg)
                 .attr("x", wheatWidth * (i % 10))
-                .attr("y", haSquare - (wheatWidth+2) * Math.floor(i/10))
+                .attr("y", haSquare - wheatWidth * Math.floor(i/10))
                 .attr("width", wheatWidth)
                 .attr("height", wheatWidth);
         }
