@@ -61,4 +61,5 @@ typings/
 .next
 *.csv
 *.xml
-.idea/workspace.xml
+.idea/
+dist/
