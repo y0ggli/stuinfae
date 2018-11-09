@@ -63,3 +63,4 @@ typings/
 *.xml
 .idea/
 dist/
+.idea/workspace.xml
