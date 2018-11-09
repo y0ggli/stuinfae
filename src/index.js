@@ -127,7 +127,7 @@ function drawMap(g, africa) {
             return d.properties.geounit
         })
         .attr('class', 'africa')
-        .on("mouseover", handleMouseOver)
+        .on("mouseover",d => handleMouseOver(d,true))
         .on("mouseout", handleMouseOut);
 }
 
@@ -291,7 +291,7 @@ function activateMouseOver(d,map) {
     for (let i = 0; i < map.data().length; i++) {
         let p = map.data()[i];
         if (p.properties.geounit === d["Name"]) {
-            handleMouseOver(p);
+            handleMouseOver(p,false);
         }
     }
 }
@@ -306,7 +306,7 @@ function deactivateMouseOver(d,map) {
 }
 
 
-function handleMouseOver(d) {
+function handleMouseOver(d,playanimation) {
     let area = getYearsForArea(d, areaHarvested);
     let prod = getYearsForArea(d, production);
     let yie = getYearsForArea(d,yieldHgHa);
@@ -321,6 +321,18 @@ function handleMouseOver(d) {
 
     let t0;
     let t1;
+
+    let ha_line = "ha_line";
+    let ha_tip = "ha_tip";
+    let wheat_line = "wheat_line";
+    let wheat_tip = "wheat_tip";
+
+    if (playanimation) {
+        ha_line = "ha_line_animated";
+        ha_tip = "ha_tip_animated";
+        wheat_line = "wheat_line_animated";
+        wheat_tip = "wheat_tip_animated"
+    }
 
 
     if (area == null || prod == null || yie == null) {
@@ -356,10 +368,10 @@ function handleMouseOver(d) {
             '</div>'+
             '<h3>Yield</h3>' +
             '<div id="yield" class="ha">' +
-            '<div class="ha_line"></div>' +
-            '<p class="ha_tip">1 ha</p>' +
-            '<div class="wheat_line"></div>' +
-            '<p class="wheat_tip">100 kg</p>' +
+            '<div class="'+ha_line+'"></div>' +
+            '<p class="'+ha_tip+'">1 ha</p>' +
+            '<div class="'+wheat_line+'"></div>' +
+            '<p class="'+wheat_tip+'">100 kg</p>' +
             '</div>'
         )
     }
@@ -429,8 +441,7 @@ function getValueForYear(area, year) {
 }
 
 function getYearsForArea(area, arr) {
-    let a = arr.find(val => val.Name === area.properties.geounit);
-    return a;
+    return arr.find(val => val.Name === area.properties.geounit);
 }
 
 function combineValues(areas) {

@@ -205,7 +205,6 @@ svg{
     height: 250px;
     position: relative;
 
-
     .ha_line {
       height: 10px;
       width: 15px;
@@ -247,6 +246,52 @@ svg{
       margin: 0 0 0 5px;
     }
 
+    .ha_line_animated {
+      height: 0;
+      width: 0;
+      position: absolute;
+      top: -15px;
+      left: 255px;
+      border-top: 1px solid white;
+      border-left: 1px solid white;
+      transform: skew(-45deg);
+      animation: ha_line_expand 0.2s ease forwards, ha_line_slide 0.2s 0.3s ease forwards;
+    }
+
+    .ha_tip_animated {
+      position: absolute;
+      top: -25px;
+      left: 275px;
+      font-size: 0.8rem;
+      width: 40px;
+      height: auto;
+      margin: 0 0 0 5px;
+      opacity: 0;
+      animation: display_text .2s 0.4s ease forwards;
+    }
+    .wheat_line_animated {
+      height: 0;
+      width: 0;
+      position: absolute;
+      top: 240px;
+      left: 24px;
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+      transform: skew(30deg);
+      animation: wheat_line_expand 0.2s ease forwards, wheat_line_slide 0.3s 0.2s ease forwards;
+    }
+
+    .wheat_tip_animated {
+      position: absolute;
+      top: 250px;
+      left: 275px;
+      font-size: 0.8rem;
+      width: 40px;
+      height: auto;
+      margin: 0 0 0 5px;
+      opacity: 0;
+      animation: display_text .2s 0.4s ease forwards;
+    }
   }
 
 
@@ -261,4 +306,60 @@ svg{
 
 .fill {
   fill: $prod_2016;
+}
+
+  @keyframes wheat_line_slide {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 246px;;
+    }
+
+  }
+
+@keyframes wheat_line_expand {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 20px;
+  }
+
+}
+
+
+@keyframes ha_line_slide {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 15px;
+  }
+
+}
+
+@keyframes ha_line_expand {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 10px;
+  }
+
+}
+
+@keyframes display_text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
 }
