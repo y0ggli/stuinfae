@@ -26,7 +26,7 @@ const svg = d3.select('.container')
 
 let projection = d3.geoMercator()
     .scale(500)
-    .translate([width / 2.5, height / 2.5]);
+    .translate([width / 3, height / 2.5]);
 
 let path = d3.geoPath().projection(projection);
 let areaHarvested;
@@ -321,6 +321,10 @@ function handleMouseOver(d,playanimation) {
 
     let t0;
     let t1;
+    let a0;
+    let a1;
+    let p0;
+    let p1;
 
     let ha_line = "ha_line";
     let ha_tip = "ha_tip";
@@ -340,31 +344,35 @@ function handleMouseOver(d,playanimation) {
             "<h2>No Data :'(</h2>"
         )
     } else {
-        t0 = Math.round(yie.Years[0].Value / 1000);
-        t1= Math.round(yie.Years[1].Value / 1000);
+        t0 = yie.Years.length > 0 ? Math.round(yie.Years[0].Value / 1000) : 0;
+        t1 = yie.Years.length > 1 ? Math.round(yie.Years[1].Value / 1000) : 0;
+        a0 = area.Years.length > 0 ? area.Years[0] : {Year:2016, Value:0};
+        a1 = area.Years.length > 1 ? area.Years[1] : {Year:1980, Value:0};
+        p0 = prod.Years.length > 0 ? prod.Years[0] : {Year:2016, Value:0};
+        p1 = prod.Years.length > 1 ? prod.Years[1] : {Year:1980, Value:0};
         tooltip.html(
             '<h2>' + area.Name + '</h2>' +
             '<h3>Area harvested</h3>' +
-            '<div class="info area' + area.Years[1].Year + '">' +
+            '<div class="info area' + a1.Year + '">' +
             '<div class="circle"></div>' +
-            '<p class="year">' + area.Years[1].Year + ': ' + '</p>' +
-            '<p class="value">' + area.Years[1].Value.toLocaleString() + ' ' + area.Unit + '</p>' +
+            '<p class="year">' + a1.Year + ': ' + '</p>' +
+            '<p class="value">' + a1.Value.toLocaleString() + ' ' + area.Unit + '</p>' +
             '</div>' +
-            '<div class="info area' + area.Years[0].Year + '">' +
+            '<div class="info area' + a0.Year + '">' +
             '<div class="circle"></div>' +
-            '<p class="year">' + area.Years[0].Year + ': ' + '</p>' +
-            '<p class="value">' + area.Years[0].Value.toLocaleString() + ' ' + area.Unit + '</p>' +
+            '<p class="year">' + a0.Year + ': ' + '</p>' +
+            '<p class="value">' + a0.Value.toLocaleString() + ' ' + area.Unit + '</p>' +
             '</div>' +
             '<h3>Production</h3>' +
-            '<div class="info prod' + prod.Years[1].Year + '">' +
+            '<div class="info prod' + p1.Year + '">' +
             '<div class="rect"></div>' +
-            '<p class="year">' + prod.Years[1].Year + ': ' + '</p>' +
-            '<p class="value">' + prod.Years[1].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
+            '<p class="year">' + p1.Year + ': ' + '</p>' +
+            '<p class="value">' + p1.Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
             '</div>' +
-            '<div class="info prod' + prod.Years[0].Year + '">' +
+            '<div class="info prod' + p0.Year + '">' +
             '<div class="rect"></div>' +
-            '<p class="year">' + prod.Years[0].Year + ': ' + '</p>' +
-            '<p class="value">' + prod.Years[0].Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
+            '<p class="year">' + p0.Year + ': ' + '</p>' +
+            '<p class="value">' + p0.Value.toLocaleString() + ' ' + prod.Unit + '</p>' +
             '</div>'+
             '<h3>Yield</h3>' +
             '<div id="yield" class="ha">' +
@@ -436,7 +444,7 @@ function getMaxYear(area) {
 
 function getValueForYear(area, year) {
     let a = area.Years.find(val => val.Year === year);
-    return (a === undefined) ? 0 : a.Value;
+    return (a == null) ? 0 : a.Value;
 
 }
 
@@ -450,7 +458,7 @@ function combineValues(areas) {
         let obj = combinedAreas.find(val => {
             return val.Name === area.Area
         });
-        if (obj !== undefined) {
+        if (obj != null) {
             obj.Years.push({
                 Year: area.Year,
                 Value: area.Value
