@@ -18,9 +18,9 @@ $background: #222222;
 $text_size: 1rem;
 /*$title_size:*/
 
-$screen-max: 1440px;
+$screen-max: 1439px;
 
-@mixin xl {
+@mixin small {
   @media (max-width: #{$screen-max}) {
     @content;
   }
@@ -87,7 +87,7 @@ svg{
   height: 100%;
   min-width: 1200px;
 
-  @include xl {
+  @include small {
     padding: 0 1rem;
   }
 }
